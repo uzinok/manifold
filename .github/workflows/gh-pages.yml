@@ -33,4 +33,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           folder: ./dest
           branch: gh-pages
-          single-commit: true
