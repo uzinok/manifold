@@ -1,4 +1,12 @@
+html {
+	height: 100%;
+}
+
 body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-width: 1920px;
+	min-height: 100%;
 	margin: 0;
 	font-size: 24px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -20,7 +28,8 @@ img {
 	border: none;
 }
 
-.page-title {
+.title {
+	margin: 0;
 	font-weight: 700;
 	font-size: 128px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -31,9 +40,21 @@ img {
 	color: $primary;
 }
 
+.section {
+	padding: 100px 0;
+}
+
 .container {
-	&--dark {
-		background-color: #212121;
-		color: #ffffff;
-	}
+	box-sizing: border-box;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.container--dark {
+	padding: 100px 80px;
+	max-width: 1800px;
+	color: #ffffff;
+	background-color: #212121;
 }
