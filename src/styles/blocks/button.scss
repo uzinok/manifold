@@ -1,0 +1,13 @@
+.button {
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: $primary;
+
+	&--transparent {
+		background-color: transparent;
+		color: $primary;
+	}
+}
