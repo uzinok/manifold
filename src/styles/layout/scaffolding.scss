@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-size: 24px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -17,4 +18,22 @@ img {
 	padding: 0;
 	overflow: hidden;
 	border: none;
+}
+
+.page-title {
+	font-weight: 700;
+	font-size: 128px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.primary {
+	color: $primary;
+}
+
+.container {
+	&--dark {
+		background-color: #212121;
+		color: #ffffff;
+	}
 }

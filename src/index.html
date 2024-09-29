@@ -30,16 +30,16 @@
 					</ul>
 				</nav>
 				<!-- /nav -->
-				<button type="button" class="header__top-button button">Contact us</button>
+				<a href="#" class="header__top-button button">Contact us</a>
 			</div>
 		</div>
 		<!-- /header__top -->
 		<!-- header__bottom -->
 		<div class="header__bottom">
 			<div class="container">
-				<h1 class="header__title"><span class="primary">Boost</span> your email marketing results!</h1>
+				<h1 class="page-title"><span class="primary">Boost</span> your email marketing results!</h1>
 				<p class="header__subtitle">We help B2C brands grow their email-attributed revenue</p>
-				<a href="#" class="header__bottom-button">Boost your results</a>
+				<a href="#" class="header__bottom-button button">Boost your results</a>
 			</div>
 		</div>
 		<!-- /header__bottom -->
@@ -166,7 +166,7 @@
 		<section class="providers">
 			<div class="providers__container container container--dark">
 				<h2 class="page-title">We <span class="primary">take care</span> of all your email marketing activities</h2>
-				<ul class="providers__list page-list">
+				<ul class="providers__list list">
 					<li>Planning</li>
 					<li>Design</li>
 					<li>Copywriting</li>
@@ -177,7 +177,7 @@
 
 				<div class="providers__footer">
 					<div class="providers__footer-text">
-						<p>For <span class="primary">midsize businesses</span>, we become your budget-friendly email marketing team, ensuring revenue from emails at a fraction of in-house costs. Discover how it works!</p>
+						<p><span class="primary">For midsize businesses</span>, we become your budget-friendly email marketing team, ensuring revenue from emails at a fraction of in-house costs. Discover how it works!</p>
 					</div>
 					<div class="providers__footer-text">
 						<p><span class="primary">For email marketers at larger companies</span>, we enhance your productivity by handling execution, allowing you to focus on strategy. Learn why we are your support, not your competition!</p>
@@ -193,13 +193,11 @@
 				<h2 class="page-title">Testimonials</h2>
 				<blockquote class="reviews__blockquote">
 					<p>You have ensured a systematic approach to our email strategy and helped us streamline all chaotic thoughts and ideas we had about our emails!</p>
-					<cite>Natalia Pereldik,</cite>
-					<b>CEO, Funexpected Games</b>
+					<cite>Natalia Pereldik, <b>CEO, Funexpected Games</b></cite>
 				</blockquote>
 				<blockquote class="reviews__blockquote">
 					<p>You have shown great professionalism and attention to detail when it comes to email marketing!</p>
-					<cite>Ron Shalev,</cite>
-					<b>Founder, BYB Media</b>
+					<cite>Ron Shalev, <b>Founder, BYB Media</b></cite>
 				</blockquote>
 			</div>
 		</section>
@@ -217,8 +215,8 @@
 					<p class="subscription__primary primary">Let's join forces and make your emails shine!</p>
 					<form action="#" class="subscription__form form">
 						<h3 class="form__title">Subscribe to L.U.Y.E.</h3>
-						<label for="email">Email</label>
-						<input type="email" name="email" id="email">
+						<label for="email" class="visually-hidden">Email</label>
+						<input type="email" name="email" id="email" class="form__input" placeholder="Your Email" autocomplete="off">
 						<button type="submit" class="form__button button">Subscribe</button>
 						<p class="form__notes">Согласие на получение писем?</p>
 					</form>
@@ -235,17 +233,23 @@
 				<img src="./img/logo.svg" alt="Manifold">
 			</a>
 			<ul class="footer__nav">
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Email Marketing Audit</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#" class="footer__link">Services</a></li>
+				<li><a href="#" class="footer__link">Email Marketing Audit</a></li>
+				<li><a href="#" class="footer__link">Blog</a></li>
+				<li><a href="#" class="footer__link">About Us</a></li>
+				<li><a href="#" class="footer__link">Portfolio</a></li>
+				<li><a href="#" class="footer__link">Privacy Policy</a></li>
 			</ul>
 			<ul class="footer__social-list">
-				<li><a href="#" class="footer__social-link footer__social-link--1">Twitwe</a></li>
-				<li><a href="#" class="footer__social-link footer__social-link--2">Linkedin</a></li>
-				<li><a href="#" class="footer__social-link footer__social-link--3">Facebook</a></li>
+				<li><a href="#" class="footer__social-link footer__social-link--1">
+					<span class="visually-hidden">Twitwe</span>
+				</a></li>
+				<li><a href="#" class="footer__social-link footer__social-link--2">
+					<span class="visually-hidden">Linkedin</span>
+				</a></li>
+				<li><a href="#" class="footer__social-link footer__social-link--3">
+					<span class="visually-hidden">Facebook</span>
+				</a></li>
 			</ul>
 		</div>
 	</footer>
