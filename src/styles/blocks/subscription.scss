@@ -16,10 +16,10 @@
 }
 
 .subscription__content {
-	line-height: 130%;
-	grid-row-start: 1;
-	grid-row-end: 3;
 	grid-column-start: 2;
+	grid-row-end: 3;
+	grid-row-start: 1;
+	line-height: 130%;
 }
 
 .subscription__content p {
