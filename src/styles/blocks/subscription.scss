@@ -1,8 +1,31 @@
+.subscription__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+}
+
+.subscription__title {
+	margin: 0 0 10px;
+}
+
 .subscription__subtitle {
+	grid-column-start: 1;
+	margin: 0;
 	font-weight: 700;
 	color: $primary;
 }
 
 .subscription__content {
 	line-height: 130%;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 2;
+}
+
+.subscription__content p {
+	margin: 0;
+}
+
+.subscription__content p:not(:last-child) {
+	margin-bottom: 30px;
 }

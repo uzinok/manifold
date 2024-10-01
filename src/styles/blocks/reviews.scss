@@ -1,16 +1,37 @@
 .reviews {
-	color: #212121;
 	font-size: 20px;
+	color: #212121;
+}
 
-	& cite {
-		color: $primary;
-		font-weight: 500;
-		font-size: 18px;
-		font-style: italic;
-	}
+.reviews cite {
+	font-weight: 500;
+	font-size: 18px;
+	color: $primary;
+	font-style: italic;
+}
 
-	& b {
-		font-weight: 700;
-		color: #000000;
-	}
+.reviews b {
+	display: block;
+	margin-top: 5px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.reviews p {
+	margin: 0 0 10px;
+}
+
+.reviews__title {
+	max-width: 50%;
+}
+
+.reviews__blockquote {
+	box-sizing: border-box;
+	width: 799px;
+	margin: 0;
+	padding: 25px 30px 25px 106px;
+}
+
+.reviews__blockquote:not(:last-child) {
+	margin-bottom: 50px;
 }

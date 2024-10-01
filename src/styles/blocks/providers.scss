@@ -1,3 +1,21 @@
+.providers__container {
+	display: grid;
+	grid-template-columns: 1270px 1fr;
+	gap: 40px 91px;
+	align-items: center;
+}
+
 .providers__footer-text {
 	line-height: 130%;
+}
+
+.providers__list {
+	gap: 30px;
+}
+
+.providers__footer {
+	grid-column: span 2 / auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 200px;
 }
