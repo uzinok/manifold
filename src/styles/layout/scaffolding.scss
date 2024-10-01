@@ -53,14 +53,32 @@ img {
 }
 
 .container--dark {
-	padding: 100px 80px;
 	max-width: 1800px;
+	padding: 100px 80px;
 	color: #ffffff;
 	background-color: #212121;
+	border-radius: 20px;
 }
 
 .list {
 	display: grid;
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
+}
+
+.list li {
+	padding-left: 20px;
+	position: relative;
+}
+
+.list li::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background-color: $primary;
+	border-radius: 50%;
 }

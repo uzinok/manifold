@@ -1,3 +1,10 @@
+.providers {
+	background-image: url(../../img/waves.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: -300px center;
+}
+
 .providers__container {
 	display: grid;
 	align-items: center;
@@ -5,17 +12,31 @@
 	gap: 40px 91px;
 }
 
-.providers__footer-text {
-	line-height: 130%;
-}
-
 .providers__list {
 	gap: 30px;
 }
 
 .providers__footer {
-	display: grid;
-	grid-column: span 2 / auto;
-	grid-template-columns: 1fr 1fr;
-	gap: 200px;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	display: flex;
+}
+
+.providers__footer-text {
+	box-sizing: border-box;
+	margin: 0;
+	line-height: 130%;
+	width: 50%;
+}
+
+.providers__footer-text:nth-child(odd) {
+	padding-right: 100px;
+}
+
+.providers__footer-text:nth-child(odd):not(:last-child) {
+	border-right: 2px solid #ffffff;
+}
+
+.providers__footer-text:nth-child(even) {
+	padding-left: 100px;
 }
