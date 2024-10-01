@@ -1,12 +1,12 @@
 .header__top .container {
-	padding-top: 30px;
-	padding-bottom: 30px;
 	display: flex;
 	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .header__bottom .container {
-	padding: 148px 650px 148px 60px;
+	padding: 148px 650px 148px 40px;
 }
 
 .header__logo {
@@ -23,6 +23,6 @@
 
 .header__subtitle {
 	margin: 0 0 40px;
-	font-size: 32px;
 	font-weight: 300;
+	font-size: 32px;
 }

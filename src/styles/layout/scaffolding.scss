@@ -5,7 +5,7 @@ html {
 body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-	min-width: 1920px;
+	min-width: 1900px;
 	min-height: 100%;
 	margin: 0;
 	font-size: 24px;
@@ -46,10 +46,10 @@ img {
 
 .container {
 	box-sizing: border-box;
-	max-width: 1920px;
+	max-width: 1880px;
 	margin: 0 auto;
-	padding-right: 60px;
-	padding-left: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 .container--dark {
@@ -57,4 +57,10 @@ img {
 	max-width: 1800px;
 	color: #ffffff;
 	background-color: #212121;
+}
+
+.list {
+	display: grid;
+	margin: 0;
+	padding: 0;
 }
