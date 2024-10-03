@@ -85,4 +85,16 @@
 .slider-two__pagination-prev,
 .slider-two__pagination-next {
 	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	background-image: url(../../img/arrow-left.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid #c2c2c2;
+	border-radius: 50%;
+}
+
+.slider-two__pagination-next {
+	transform: scale(-1, 1);
 }

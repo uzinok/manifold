@@ -1,8 +1,9 @@
 .providers {
+	background-color: #fafafa;
 	background-image: url(../../img/waves.jpg);
-	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: -300px center;
+	background-size: contain;
 }
 
 .providers__container {
@@ -17,16 +18,16 @@
 }
 
 .providers__footer {
-	grid-column-start: 1;
-	grid-column-end: -1;
 	display: flex;
+	grid-column-end: -1;
+	grid-column-start: 1;
 }
 
 .providers__footer-text {
 	box-sizing: border-box;
+	width: 50%;
 	margin: 0;
 	line-height: 130%;
-	width: 50%;
 }
 
 .providers__footer-text:nth-child(odd) {

@@ -7,8 +7,9 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	background-color: $primary;
-	appearance: none;
+	border: 0;
 	border-radius: 5px;
+	appearance: none;
 }
 
 .button:hover {
