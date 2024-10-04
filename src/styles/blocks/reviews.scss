@@ -1,6 +1,23 @@
 .reviews {
 	font-size: 20px;
 	color: #212121;
+	position: relative;
+	overflow: hidden;
+	min-height: 745px;
+}
+
+.reviews::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 1435px;
+	height: 745px;
+	background-image: url(../../img/reviews.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 .reviews cite {
@@ -30,6 +47,13 @@
 	width: 799px;
 	margin: 0;
 	padding: 25px 30px 25px 106px;
+	background-image: url(../../img/blockquote.svg);
+	background-repeat: no-repeat;
+	background-position: 30px 25px;
+	background-size: 56px 55px;
+	border: 1px solid #d1d1d1;
+	border-radius: 11px;
+	box-shadow: 0 0 33px rgba(0, 0, 0, 0.25);
 }
 
 .reviews__blockquote:not(:last-child) {

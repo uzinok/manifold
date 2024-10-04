@@ -16,9 +16,24 @@
 .form__input {
 	display: block;
 	width: 100%;
+	padding: 15px 30px;
 	font-weight: 300;
 	font-size: 20px;
+	font-size: 20px;
 	font-family: inherit;
+	font-family: inherit;
+	background-color: #ffffff;
+	border: 0;
+	border-radius: 5px 0 0 5px;
+}
+
+.form__input::placeholder {
+	color: #b6b6b6;
+	opacity: 1;
+}
+
+.form__button {
+	border-radius: 0 5px 5px 0;
 }
 
 .form__notes {

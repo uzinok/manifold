@@ -38,3 +38,35 @@
 	list-style-type: none;
 	gap: 40px;
 }
+
+.footer__social-link {
+	position: relative;
+	display: block;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.footer__social-link::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer__social-link--1::before {
+	background-image: url(../../img/social/twiter.svg);
+}
+
+.footer__social-link--2::before {
+	background-image: url(../../img/social/linkedin.svg);
+}
+
+.footer__social-link--3::before {
+	background-image: url(../../img/social/facebook.svg);
+}
