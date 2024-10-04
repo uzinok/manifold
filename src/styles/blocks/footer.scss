@@ -30,6 +30,14 @@
 	text-decoration: none;
 }
 
+.footer__link:hover {
+	opacity: 0.8;
+}
+
+.footer__link:active {
+	opacity: 0.4;
+}
+
 .footer__social-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -46,6 +54,14 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
+}
+
+.footer__social-link:hover {
+	opacity: 0.8;
+}
+
+.footer__social-link:active {
+	opacity: 0.4;
 }
 
 .footer__social-link::before {
