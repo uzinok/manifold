@@ -12,7 +12,8 @@
 	appearance: none;
 }
 
-.button:hover {
+.button:not(:disabled):hover {
+	cursor: pointer;
 	opacity: 0.8;
 }
 

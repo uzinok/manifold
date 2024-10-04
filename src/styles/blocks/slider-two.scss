@@ -98,3 +98,14 @@
 .slider-two__pagination-next {
 	transform: scale(-1, 1);
 }
+
+.slider-two__pagination-prev:hover,
+.slider-two__pagination-next:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.slider-two__pagination-prev:active,
+.slider-two__pagination-next:active {
+	opacity: 0.4;
+}
