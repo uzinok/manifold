@@ -22,7 +22,9 @@
 }
 
 .header__bottom {
-	background-image: url(../../img/waves-top.png);
+	background-image: url('../../img/waves-top.png');
+	background-image: image-set(url('../../img/waves-top.avif') type('image/avif'),
+			url('../../img/waves-top.png'));
 	background-repeat: no-repeat;
 	background-position: right center;
 	border-bottom: 1px solid #c2c2c2;
