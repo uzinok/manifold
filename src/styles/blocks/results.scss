@@ -1,4 +1,6 @@
 .results {
 	background-image: url(../../img/points.png);
+	background-image: image-set(url('../../img/points.avif') type('image/avif'),
+			url('../../img/points.png'));
 	background-position: center top;
 }
