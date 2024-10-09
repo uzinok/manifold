@@ -1,6 +1,7 @@
 .reviews {
 	position: relative;
 	min-height: 606px;
+	padding-top: 94px;
 	overflow: hidden;
 	font-size: 20px;
 	color: #212121;
@@ -9,7 +10,7 @@
 .reviews::after {
 	content: '';
 	position: absolute;
-	top: calc(50% + 39px);
+	top: calc(50% + 38px);
 	left: 51%;
 	width: 1435px;
 	height: 745px;
@@ -31,7 +32,7 @@
 .reviews cite {
 	font-weight: 500;
 	font-size: 18px;
-	color: $primary;
+	color: #f5333f;
 	font-style: italic;
 }
 
@@ -44,6 +45,7 @@
 
 .reviews p {
 	margin: 0 0 10px;
+	line-height: 1.2;
 }
 
 .reviews__title {
@@ -55,7 +57,7 @@
 	box-sizing: border-box;
 	width: 799px;
 	margin: 0;
-	padding: 25px 30px 25px 106px;
+	padding: 25px 30px 23px 106px;
 	background-image: url(../../img/blockquote.svg);
 	background-repeat: no-repeat;
 	background-position: 30px 25px;

@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 887px auto;
 	grid-template-rows: auto 1fr;
-	gap: 0 177px;
+	gap: 0 176px;
 }
 
 .slider-two picture {
@@ -28,7 +28,7 @@
 .slider-two__item-img {
 	display: grid;
 	grid-template-columns: 250px 175px 37px 215px 210px;
-	grid-template-rows: 29px 38px 682px 29px 38px;
+	grid-template-rows: 28px 38px 682px 29px 38px;
 }
 
 .slider-two__item-img .slider-two__item-picture {
@@ -59,7 +59,7 @@
 }
 
 .slider-two__list-content {
-	margin-top: 153px;
+	margin-top: 149px;
 }
 
 .slider-two__item-content .slider-two__item-picture {
@@ -71,12 +71,12 @@
 	display: grid;
 	grid-template-columns: 110px auto;
 	margin: 23px 0 30px;
-	gap: 18px 20px;
+	gap: 19px 20px;
 }
 
 .slider-two__item-content-dt {
 	font-weight: 700;
-	color: $primary;
+	color: #f5333f;
 }
 
 .slider-two__item-content-dd {

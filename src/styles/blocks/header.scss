@@ -6,11 +6,11 @@
 	display: flex;
 	align-items: center;
 	padding-top: 30px;
-	padding-bottom: 28px;
+	padding-bottom: 29px;
 }
 
 .header__bottom .container {
-	padding: 148px 650px 148px 40px;
+	padding: 148px 650px 147px 40px;
 }
 
 .header__logo {
@@ -27,6 +27,7 @@
 			url('../../img/waves-top.png'));
 	background-repeat: no-repeat;
 	background-position: right -165px center;
+	background-size: auto 100%;
 	border-bottom: 1px solid #c2c2c2;
 }
 

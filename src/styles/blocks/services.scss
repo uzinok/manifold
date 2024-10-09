@@ -1,20 +1,22 @@
 .services {
+	padding-bottom: 99px;
 	background-color: #fafafa;
 	background-image: url('../../img/waves.png');
 	background-image: image-set(url('../../img/waves.avif') type('image/avif'),
 			url('../../img/waves.png'));
 	background-repeat: no-repeat;
-	background-position: -300px center;
-	background-size: contain;
+	background-position: left -6px center;
+	background-size: auto 100%;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 .services__container {
 	display: grid;
 	align-items: center;
 	grid-template-columns: 850px auto;
-	gap: 114px;
+	gap: 116px;
 }
 
 .services__list {
-	gap: 23px;
+	gap: 24px;
 }
