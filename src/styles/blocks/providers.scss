@@ -1,22 +1,22 @@
 .providers {
+	padding-bottom: 100px;
 	background-color: #fafafa;
-	background-image: url('../../img/waves.png');
-	background-image: image-set(url('../../img/waves.avif') type('image/avif'),
-			url('../../img/waves.png'));
+	background-image: url('../../img/waves-1.png');
 	background-repeat: no-repeat;
-	background-position: -300px center;
+	background-position: left -7px center;
 	background-size: contain;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 .providers__container {
 	display: grid;
 	align-items: center;
 	grid-template-columns: 1270px 1fr;
-	gap: 40px 91px;
+	gap: 45px 91px;
 }
 
 .providers__list {
-	gap: 30px;
+	gap: 28px;
 }
 
 .providers__footer {

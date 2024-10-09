@@ -1,11 +1,13 @@
 .subscription {
 	background-color: #f5f5f5;
+	border-top: 1px solid #d1d1d1;
 }
 
 .subscription__container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 746px 1fr;
 	grid-template-rows: auto 1fr;
+	padding-bottom: 97px;
 }
 
 .subscription__title {
@@ -16,7 +18,8 @@
 	grid-column-start: 1;
 	margin: 0;
 	font-weight: 700;
-	color: $primary;
+	color: #f5333f;
+	text-indent: 4px;
 }
 
 .subscription__content {
@@ -32,4 +35,8 @@
 
 .subscription__content p:not(:last-child) {
 	margin-bottom: 30px;
+}
+
+.subscription__form {
+	padding-top: 7px;
 }

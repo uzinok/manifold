@@ -1,6 +1,7 @@
 .reviews {
 	position: relative;
-	min-height: 745px;
+	min-height: 606px;
+	padding-top: 94px;
 	overflow: hidden;
 	font-size: 20px;
 	color: #212121;
@@ -9,8 +10,8 @@
 .reviews::after {
 	content: '';
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: calc(50% + 38px);
+	left: 51%;
 	width: 1435px;
 	height: 745px;
 	background-image: url(../../img/reviews.png);
@@ -24,10 +25,14 @@
 	transform: translateY(-50%);
 }
 
+.reviews__container {
+	padding-top: 6px;
+}
+
 .reviews cite {
 	font-weight: 500;
 	font-size: 18px;
-	color: $primary;
+	color: #f5333f;
 	font-style: italic;
 }
 
@@ -40,17 +45,19 @@
 
 .reviews p {
 	margin: 0 0 10px;
+	line-height: 1.2;
 }
 
 .reviews__title {
 	max-width: 50%;
+	margin-bottom: 60px;
 }
 
 .reviews__blockquote {
 	box-sizing: border-box;
 	width: 799px;
 	margin: 0;
-	padding: 25px 30px 25px 106px;
+	padding: 25px 30px 23px 106px;
 	background-image: url(../../img/blockquote.svg);
 	background-repeat: no-repeat;
 	background-position: 30px 25px;

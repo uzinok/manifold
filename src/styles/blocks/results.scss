@@ -1,6 +1,11 @@
 .results {
+	padding-bottom: 100px;
+	padding-left: 2px;
 	background-image: url(../../img/points.png);
-	background-image: image-set(url('../../img/points.avif') type('image/avif'),
-			url('../../img/points.png'));
 	background-position: center top;
+	border-bottom: 1px solid #efefef;
+}
+
+.results__container {
+	padding-top: 2px;
 }

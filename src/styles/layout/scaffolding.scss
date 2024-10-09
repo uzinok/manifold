@@ -32,16 +32,17 @@ img {
 	margin: 0;
 	font-weight: 700;
 	font-size: 128px;
+	line-height: 1.17;
 	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 }
 
 .primary {
-	color: $primary;
+	color: #f5333f;
 }
 
 .section {
-	padding: 100px 0;
+	padding: 98px 0;
 }
 
 .container {
@@ -54,7 +55,7 @@ img {
 
 .container--dark {
 	max-width: 1800px;
-	padding: 100px 80px;
+	padding: 101px 77px;
 	color: #ffffff;
 	background-color: #212121;
 	border-radius: 20px;
@@ -79,6 +80,10 @@ img {
 	left: 0;
 	width: 10px;
 	height: 10px;
-	background-color: $primary;
+	background-color: #f5333f;
 	border-radius: 50%;
+}
+
+.db {
+	display: block;
 }

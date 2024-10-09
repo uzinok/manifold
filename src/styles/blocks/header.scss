@@ -6,11 +6,11 @@
 	display: flex;
 	align-items: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 29px;
 }
 
 .header__bottom .container {
-	padding: 148px 650px 148px 40px;
+	padding: 148px 650px 147px 40px;
 }
 
 .header__logo {
@@ -26,16 +26,22 @@
 	background-image: image-set(url('../../img/waves-top.avif') type('image/avif'),
 			url('../../img/waves-top.png'));
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: right -165px center;
+	background-size: auto 100%;
 	border-bottom: 1px solid #c2c2c2;
 }
 
 .header__title {
 	margin-bottom: 10px;
+	line-height: 1.17;
 }
 
 .header__subtitle {
 	margin: 0 0 40px;
 	font-weight: 300;
 	font-size: 32px;
+}
+
+.header__bottom-button {
+	padding: 20px 26px;
 }
