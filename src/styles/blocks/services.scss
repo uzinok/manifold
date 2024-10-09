@@ -10,10 +10,11 @@
 
 .services__container {
 	display: grid;
+	align-items: center;
 	grid-template-columns: 850px auto;
-	gap: 135px;
+	gap: 114px;
 }
 
 .services__list {
-	gap: 25px;
+	gap: 23px;
 }

@@ -4,7 +4,7 @@
 	background-image: image-set(url('../../img/waves.avif') type('image/avif'),
 			url('../../img/waves.png'));
 	background-repeat: no-repeat;
-	background-position: -300px center;
+	background-position: -563px center;
 	background-size: contain;
 }
 
@@ -12,11 +12,11 @@
 	display: grid;
 	align-items: center;
 	grid-template-columns: 1270px 1fr;
-	gap: 40px 91px;
+	gap: 45px 91px;
 }
 
 .providers__list {
-	gap: 30px;
+	gap: 28px;
 }
 
 .providers__footer {

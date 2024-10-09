@@ -4,8 +4,9 @@
 
 .subscription__container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 743px 1fr;
 	grid-template-rows: auto 1fr;
+	padding-bottom: 97px;
 }
 
 .subscription__title {
@@ -32,4 +33,8 @@
 
 .subscription__content p:not(:last-child) {
 	margin-bottom: 30px;
+}
+
+.subscription__form {
+	padding-top: 8px;
 }

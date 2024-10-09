@@ -32,6 +32,7 @@ img {
 	margin: 0;
 	font-weight: 700;
 	font-size: 128px;
+	line-height: 1.17;
 	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 }
@@ -41,7 +42,7 @@ img {
 }
 
 .section {
-	padding: 100px 0;
+	padding: 98px 0;
 }
 
 .container {
@@ -81,4 +82,8 @@ img {
 	height: 10px;
 	background-color: $primary;
 	border-radius: 50%;
+}
+
+.db {
+	display: block;
 }
