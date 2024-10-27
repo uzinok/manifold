@@ -118,3 +118,13 @@
 .slider-two__pagination-next:active {
 	opacity: 0.4;
 }
+
+.slider-two__link {
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 0.4;
+	}
+}
