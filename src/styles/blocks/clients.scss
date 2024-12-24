@@ -7,15 +7,21 @@
 	padding-bottom: 40px;
 }
 
+.clients__container > * {
+	margin-top: 0;
+}
+
+.clients__container > *:last-child {
+	margin-bottom: 0;
+}
+
 .clients__list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 180px);
 	align-items: center;
-	margin: 0 0 0 2px;
-	padding: 0;
+	padding: 0 20px;
 	list-style-type: none;
-	gap: 136px;
+	gap: 68px 136px;
 }
 
 .clients__list img {
